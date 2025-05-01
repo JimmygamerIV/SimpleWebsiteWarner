@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Blacklisted Domain Warning",
+  "description": "Notifies the user when visiting blacklisted domains.",
+  "version": "1.0",
+  "permissions": ["webRequest", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
